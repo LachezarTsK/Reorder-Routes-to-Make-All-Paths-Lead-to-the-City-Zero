@@ -8,7 +8,7 @@ import java.util.Queue;
 
 public class Solution {
 
-    private static record Node(int nodeID, int isOriginalIncomingEdge) {}
+    private record Node(int nodeID, int isOriginalIncomingEdge) {}
     private Map<Integer, List<Node>> graph;
     
     private static final int ORIGINAL_INCOMING_EDGE = 1;
