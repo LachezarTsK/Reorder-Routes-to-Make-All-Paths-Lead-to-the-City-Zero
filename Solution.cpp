@@ -6,7 +6,7 @@ using namespace std;
 
 class Solution {
 
-    static const struct Node {
+    struct Node {
         int nodeID{};
         int isOriginalIncomingEdge{};
         Node(int nodeID, int isOriginalIncomingEdge) : nodeID{nodeID}, isOriginalIncomingEdge{isOriginalIncomingEdge}{};
